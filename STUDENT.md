@@ -1,10 +1,10 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
-- Tài khoản GitHub: <<>>
-- Repo bài nộp (URL): <<>>
+- Họ và tên: Lê Trung Tá
+- MSHV: 2A202603213
+- Lớp (L2 / L3 / khác): L2
+- Tài khoản GitHub: trugta
+- Repo bài nộp (URL): https://github.com/trugta/K5-L23-DAY08-2A202603213-LeTrungTa-AIPrelabel.git
 - Commit chốt bài (hash): <<>>
 - Máy: <<hệ điều hành, GPU (CUDA / MPS / không có)>>
 - CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>

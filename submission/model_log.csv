@@ -1,1 +1,7 @@
 run_id,part,model,params,split,n_boxes,sec_per_img,what_went_right,what_went_wrong,decision
+r01, , yolo26-m, --model yolo26 --size m --split pilot --conf 0.25 --out work/prelabel/t_y26, pilot, 215, 1.66, nhãn xe và người chuẩn, không có gán nhãn cho xe 3 bánh
+r02, , yolo26-m, --model yolo26 --size m --split pilot --conf 0.5 --out work/prelabel/t_y26_c05, pilot, 139, 0.37, nhãn xe và người chuẩn, không có gán nhãn cho xe 3 bánh
+r03, , yoloe-s, --model yoloe --classes three_wheeler --split pilot --conf 0.25 --out work/prelabel/t_yoloe, pilot,	8,	0.19,  nhãn 3 bánh chuẩn, không có nhãn xe và người
+r04, ,yolo26-m+sam(sam2.1_b.pt), --model yolo26 --size m --classes personmotorbikecar --images img_004.jpg img_013.jpg --conf 0.3 --segmenter sam --sam sam2.1_b.pt --out work/prelabel/t_sam,custom,	16,	1.81,  có đủ nhãn , chưa chính xác
+r05,	,	yolo26-m,	--model yolo26 --size m --split all --conf 0.05 --out work/prelabel/y26_all --no-viz,	all,	1669,	0.13
+r06,	,	yoloe-s,	--model yoloe --classes three_wheeler --split all --conf 0.05 --out work/prelabel/yoloe_all --no-viz,	all,	125,	0.06	
