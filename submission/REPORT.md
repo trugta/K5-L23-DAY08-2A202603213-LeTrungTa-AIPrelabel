@@ -1,4 +1,4 @@
-# Báo cáo Day 08 — 2A202603213 – Lê Trung Tạ
+# Báo cáo Day 08 — 2A202603213 – Lê Trung Tá
 
 ## 1. Model và recipe (Part 2–3)
 
@@ -61,8 +61,8 @@ Ba quy tắc em dùng làm checklist cho lần duyệt tiếp theo:
 
 | Ảnh | SAM | Số click đã ghi | Người lái, hàng hóa và lỗi | File kết quả dự kiến trong masks/ |
 |---|---|---:|---|---|
-| img_002 | SAM 2.1 Base | 2 | Cần đối chiếu ảnh kết quả cuối. | tuktuk_img002.jpg |
-| img_004 | SAM 2.1 Base | 3 | Cần đối chiếu ảnh kết quả cuối. | tuktuk_img004.jpg |
+| img_002 | SAM 2.1 Base | 2 | | tuktuk_img002.jpg |
+| img_004 | SAM 2.1 Base | 3 |  | tuktuk_img004.jpg |
 | img_013 | SAM 2.1 Base | 3 | Ghi nhận trong bảng ban đầu: mask gồm người lái. Cần đối chiếu phần hàng hóa trên ảnh cuối. | tuktuk_img013.jpg |
 
 Trong lần thử lệnh mẫu trên `img_013.jpg`, điểm dương tại (600, 110) rơi vào bầu trời và vùng tô lan rộng trên nền trời. Ở ảnh có nhiều tuk-tuk đỗ cạnh nhau, một điểm dương rơi trên mặt đường và vùng tô xuất hiện quanh điểm đó. Hai lần thử cho thấy em cần kiểm tra vị trí chấm ngay trên ảnh sau mỗi lần chạy. Với xe ở tiền cảnh, thân xe và mái là hai vị trí dễ đặt điểm dương. Phần nền bị lấy nhầm là vị trí thích hợp để đặt điểm âm.
